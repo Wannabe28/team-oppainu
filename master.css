@@ -1,0 +1,216 @@
+* {
+  margin: 0 0;
+}
+
+header {
+  background-color: rgba(20,20,0,0.8);
+  height: 50px;
+}
+
+.header-right{
+  margin: 10px 20px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+}
+
+.clear-float {
+  clear: left;
+}
+
+body {
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+}
+
+
+.top-wrapper {
+  height: 500px;
+  background-image: url("../images/tatami-chabudai.png");
+  background-size: cover;
+  /*padding: 80px 90px;*/
+  color: white;
+  font-family: cursive;
+  text-align: left;
+}
+
+.top-container {
+  /*margin-top: 100px;
+  margin-left: 60px;*/
+  padding-top: 180px;
+  padding-left: 150px;
+}
+
+.top-container h1 {
+  margin-top: 200px;
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.top-container p {
+  margin-top: 15px;
+}
+
+.main-wrapper {
+  height: auto;
+  position:relative;
+  margin: 0 auto;
+}
+
+.dbBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/BoobsDogsLogo.png");
+  background-size: 180px 180px;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.main-container {
+  margin: 0 auto;
+}
+
+.phrases {
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.quoteOrigin {
+  text-align: right;
+  font-size: 10px;
+}
+
+.contents-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contents-wrapper a {
+  flex: auto;
+  text-align: center;
+  background-color: rgba(221,221,221,0.9);
+  float: left;
+  margin-top: 20px;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 20px 0 10px 0;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+ a:link {
+  color: black;
+}
+
+.New-things {
+  margin-top: 70px;
+}
+
+.aboutnew {
+  display: inline-block;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px double #B22222;
+}
+
+.New-lists {
+  margin-top: 5px;
+  font-size: 13px;
+  border: 1px solid #228B22;
+}
+
+.introduce-wrapper {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.introduce-msg {
+  font-size: 40px;
+}
+
+.intro-box {
+  margin-top: 30px;
+  position: relative;
+}
+
+.pic-intro-back {
+  width: 100%;
+  opacity: 0.9;
+}
+
+.introSentence {
+  position:absolute;
+  top: 30px;
+  left: 22px;
+  width: 95%;
+  text-align: left;
+}
+
+.intro-start {
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.pic-oppainuAct {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.foot-wrapper {
+  border-top: 3px solid #DCDCDC;
+  height: auto;
+  background-color: #F8F8FF;
+}
+
+.footer-banner {
+  float: left;
+}
+
+.footer-banner img {
+  padding-top: 0;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.SNSsets{
+  font-size: 35px;
+  margin-top: 11px;
+  float: left;
+}
+
+footer .btn {
+  margin-left: 10px;
+}
+
+.facebook {
+  color: #6495ED;
+}
+
+.twitter {
+  color: #00BFFF;
+}
+
+.instagram {
+  color: #9400D3;
+}
+
+.foot-wrapper p {
+  padding-top:30px;
+  float: right;
+  text-align: right;
+}
