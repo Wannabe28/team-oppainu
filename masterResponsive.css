@@ -1,0 +1,87 @@
+@media (max-width: 670px) {
+
+  .top-container {
+    padding-left: 5px;
+  }
+
+  .container h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .phrases {
+    font-size: 12px;
+  }
+
+  .introduce-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .aboutOppainu {
+    font-size: 12px;
+  }
+
+  .intro-box {
+    margin-top: 15px;
+  }
+
+  .pic-intro-back {
+    width: 95%;
+    height: 210px;
+  }
+
+  .introSentence {
+    width: 90%;
+    top: 10px;
+  }
+
+  .intro-start {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .pic-oppainuAct {
+    margin: 20px 2px;
+  }
+
+  .footer-banner img {
+    margin-right: 0;
+  }
+
+  .SNSsets {
+    float: right;
+    clear:right;
+  }
+
+  footer .btn {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+
+  .foot-wrapper p {
+    float: none;
+    clear:left;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1030px) {
+  .pic-intro-back {
+    width: 95%;
+    height: 220px;
+  }
+
+  .introSentence {
+    width: 90%;
+    top: 10px;
+    left: 30px;
+  }
+
+  .pic-oppainuAct {
+    margin: 30px 2px;
+  }
+
+}
